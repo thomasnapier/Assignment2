@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Barrier Reef Orchestra</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+  </head>
+<body>
+<div class="nav">
+	<div class="topnav" id="myTopNav">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="concerts.html">CONCERTS</a>
+        <a href="rep.html">REPERTOIRE</a>
+        <a href="people.html">PEOPLE</a>
+        <a href="news.html">NEWSFEED</a>
+        <a href="support.html">SUPPORT US</a>
+        <a href="signup.html">CONTACT US</a>
+        <a href="javascript:void(0);" class = "icon" onclick ="ResponsiveNav()">&#9776;</a>
+	</div>
+</div>
+<script>
+function ResponsiveNav() {
+    var x = document.getElementById("myTopNav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<div class="goal">
+	<img class="goalimg" src="css/images/water.png">
+</div>
+<div class="gallery">
+    <img src="css/images/gallery1.jpg">
+</div>
+<div class="content">
+    <p>Content</p>
+</div>
+	<footer>
+	<p>Copyright North Queensland Barrier Reef Orchestra</p>
+</footer>
+</body>
+
+</html>
