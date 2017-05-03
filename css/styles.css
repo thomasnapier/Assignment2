@@ -1,0 +1,304 @@
+/*Body styles*/
+body{
+	margin:0;
+	text-align: center;
+	background-color: white;
+    overflow-x: hidden;
+}
+/*End of body styles*/
+
+
+.gallery {
+    text-align: center;
+    border: solid white;
+    margin-left:1%;
+	margin-right: 1%;
+    overflow-x: hidden;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.spacer {
+	height:50px;
+}
+.goal {
+	background-image: url(images/water.png);
+    border: solid white;
+}
+
+.titlepic {
+	height: 80%;
+	width: 40%;
+}
+
+.mission{
+	border: solid white;
+    background-color: royalblue;
+    padding: 1% 1%;
+}
+
+.mission:hover {
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button p {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button p:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover p {
+    padding-right: 25px;
+}
+
+.button:hover p:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.content {
+	text-align:center;
+    padding-left: 0.5%;
+    padding-right:0.5%;
+}
+
+.title {
+    color: white;
+    font-size: 175%;
+    font-weight: bold;
+    font-family: "Lucida Bright", Georgia, serif;
+}
+
+.paragraph {
+    width: 40%;
+    margin-left: 30%;
+    color: white;
+    border-left: solid lightgray;
+    font-family: "Berlin Sans FB";
+    font-size: 120%;
+}
+
+.desc {
+    width:99.5%;
+    border: solid white;
+    background-color: royalblue;
+}
+
+.info {
+    border: solid white;
+    width: 99.5%;
+    background-color: rgba(91,125,225,0.83);
+	overflow: hidden;
+}
+
+.info div {
+	min-height:200px;
+	padding: 10px;
+}
+
+.notices {
+  	background-color: gray;
+  	float:left; 
+  	margin-left:1%;
+	margin-top: 1%;
+  	width:49%;
+  	border-right:2px solid #000;
+}
+.concert { 
+  	background-color: darkgray;
+  	overflow:hidden;
+  	margin:1%;
+ 	min-height:170px;
+}
+
+.contactinfo {
+	background-color: dodgerblue;
+	border: solid white;
+	overflow: hidden; 
+}
+
+.contactinfo div { 
+	min-height: 200px;
+	padding: 10px;
+}
+
+.footer {
+	border: solid white;
+	background-color: royalblue;
+	width:100%;
+}
+
+/*Navigation styles*/
+.topnav {
+  	overflow: hidden;
+  	background-color: orangered;
+    width:100%;
+    position: fixed;
+}
+
+.topnav a {
+  	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+
+.topnav .icon {
+ 	display: none;
+}
+
+.topnav a:hover {
+    background-color: rgba(255,131,0,0.83);
+    color: black;
+}
+/*End of navigation styles*/
+
+
+/*Medium/Tablet screen styles*/
+@media screen and (max-width: 1160px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+        float: right;
+        display: block;
+        margin-right: 0;
+  }
+	.goalimg {
+		height: 150px;
+	}
+    .paragraph {
+        width: 60%;
+        margin-left:20%;
+    }
+	
+	img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.gallery {
+		max-height: none;
+		max-width: none;
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 1160px) {
+	
+  	.topnav.responsive {position: relative;}
+  	.topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+  }
+  	.topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+  }
+
+}
+
+/*End of Medium/Tablet screen styles*/
+
+
+/*Small/Phone screen styles*/
+@media screen and (max-width: 500px) {
+  	.topnav a:not(:first-child) {display: none;}
+  	.topnav a.icon {
+        float: right;
+        display: block;
+  	}
+	.goalimg {
+		height: 75px;
+	}
+    .paragraph {
+        width: 80%;
+        margin-left:10%;
+    }
+	
+	.spacer {
+		height: 36px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+  	.topnav.responsive {position: relative;}
+  	.topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+  	}
+  	.topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+ 	}
+	
+	.topnav a {
+		padding: 7px 8px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+   	.notices { 
+    	float: none;
+    	margin-right:1%;
+		margin-bottom: 0;
+    	width:auto;
+    	border-bottom: solid black;   
+		border-right: 0;
+ 	}
+}
+/*End of small/phone screen styles*/
+
+
+/*Scroll to top button styles*/
+.scrollup {
+	width: 35px;
+    height: 30px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: rgba(31,28,28,0.61);
+	color: white;
+	font-size: 200%;
+	text-decoration: none;
+	font-weight: bold; 
+}
+
+.scrollup:hover {
+	color: orangered;
+}
+/*End of scroll to top button styles*/
