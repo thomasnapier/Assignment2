@@ -7,23 +7,10 @@ body{
 }
 /*End of body styles*/
 
-
-.gallery {
-    text-align: center;
-    border: solid white;
-    margin-left:1%;
-	margin-right: 1%;
-    overflow-x: hidden;
-}
-
-img {
-	height: 100%;
-	width: 100%;
-}
-
 .spacer {
 	height:50px;
 }
+
 .goal {
 	background-image: url(images/water.png);
     border: solid white;
@@ -84,10 +71,11 @@ img {
   right: 0;
 }
 
-.content {
-	text-align:center;
-    padding-left: 0.5%;
-    padding-right:0.5%;
+.committee {
+	background-color: dodgerblue;
+	border: solid white;
+	padding: 0% 5% 5%;
+	color: white;
 }
 
 .title {
@@ -97,57 +85,31 @@ img {
     font-family: "Lucida Bright", Georgia, serif;
 }
 
-.paragraph {
-    width: 40%;
-    margin-left: 30%;
-    color: white;
-    border-left: solid lightgray;
-    font-family: "Berlin Sans FB";
-    font-size: 120%;
+.heading {
+	font-size: 150%; 
+	font-weight: bold;
+	font-family: "Lucida Bright", Georgia, serif;
+	text-align: left;
 }
 
-.desc {
-    width:99.5%;
-    border: solid white;
-    background-color: royalblue;
+table { 
+  	width: 80%; 
+  	border-collapse: collapse; 
+	margin-left: 10%;
 }
 
-.info {
-    border: solid white;
-    width: 99.5%;
-    background-color: rgba(91,125,225,0.83);
-	overflow: hidden;
+td, th { 
+ 	padding: 6px; 
+ 	border: solid black;
+ 	text-align: left; 
+	font-size: 110%;
 }
 
-.info div {
-	min-height:200px;
-	padding: 10px;
-}
-
-.notices {
-  	background-color: gray;
-  	float:left; 
-  	margin-left:1%;
-	margin-top: 1%;
-  	width:49%;
-  	border-right:2px solid #000;
-}
-.concert { 
-  	background-color: darkgray;
-  	overflow:hidden;
-  	margin:1%;
- 	min-height:170px;
-}
-
-.contactinfo {
-	background-color: dodgerblue;
+.members {
 	border: solid white;
-	overflow: hidden; 
-}
-
-.contactinfo div { 
-	min-height: 200px;
-	padding: 10px;
+	background-color: dodgerblue;
+	padding: 0% 5% 5%;
+	color: white;
 }
 
 .footer {
@@ -197,21 +159,13 @@ img {
 	.goalimg {
 		height: 150px;
 	}
-    .paragraph {
-        width: 60%;
-        margin-left:20%;
-    }
+  
 	
 	img {
 		width: 100%;
 		height: 100%;
 	}
 	
-	.gallery {
-		max-height: none;
-		max-width: none;
-		margin-left: 0;
-	}
 	
 	.button {
 		padding: 10px;
@@ -258,11 +212,6 @@ img {
 	.goalimg {
 		height: 75px;
 	}
-
-    .paragraph {
-        width: 80%;
-        margin-left:10%;
-    }
 	
 	.spacer {
 		height: 36px;
