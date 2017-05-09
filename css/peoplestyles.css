@@ -7,13 +7,9 @@ body{
 }
 /*End of body styles*/
 
-.spacer {
-	height:50px;
-}
-
 .goal {
-	background-image: url(images/water.png);
-    border: solid white;
+	background-color: royalblue;
+	border: solid white;
 }
 
 .titlepic {
@@ -23,13 +19,8 @@ body{
 
 .mission{
 	border: solid white;
-    background-color: royalblue;
+    background-color: dodgerblue;
     padding: 1% 1%;
-}
-
-.mission:hover {
-    border: 2px solid black;
-    transition: 0.5s;
 }
 
 .button {
@@ -48,14 +39,14 @@ body{
 .button p {
     cursor: pointer;
     display: inline-block;
-    position: relative;
+    position: inherit;
     transition: 0.5s;
     overflow: hidden;
 }
 
 .button p:after {
     content: '\00bb';
-    position: absolute;
+    position: inherit;
     opacity: 0;
     top: 0;
     right: -20px;
@@ -63,7 +54,7 @@ body{
 }
 
 .button:hover p {
-    padding-right: 25px;
+    padding-right: 7px;
 }
 
 .button:hover p:after {
@@ -71,10 +62,13 @@ body{
   right: 0;
 }
 
+/*Committee Section Styles*/
+
 .committee {
 	background-color: dodgerblue;
 	border: solid white;
-	padding: 0% 5% 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
 	color: white;
 }
 
@@ -90,6 +84,9 @@ body{
 	font-weight: bold;
 	font-family: "Lucida Bright", Georgia, serif;
 	text-align: left;
+	width: 100%;
+	background-color: orangered;
+	padding: 1%;
 }
 
 table { 
@@ -105,17 +102,166 @@ td, th {
 	font-size: 110%;
 }
 
+/* End of Committee Section Styles */
+
+/* Life Members Section Styles */
+
+.life {
+	border: solid black;
+	width: 100%;
+	padding-right: 5%;
+}
+
 .members {
-	border: solid white;
 	background-color: dodgerblue;
-	padding: 0% 5% 5%;
+	border: solid white;
+	padding-right: 5%;
+	padding-bottom: 5%;
 	color: white;
+	height: 500px;
+}
+
+.wrapper {
+	height: 75%;
+	width: 96.5%;
+	margin-left: 1.75%;
+}
+
+.col1 {
+	width: 24.5%;
+	border: solid white;
+	float: left;
+}
+
+.col1:hover {
+	background-color: orangered;
+	font-size: 120%;
+	color: white;
+	transition: 0.5s;
+	
+}
+
+.alan:hover {
+	height: 230px;
+	width: 230px;
+	transition: 0.5s;
+	border: solid white;
+}
+
+.col2 {
+	border: solid white;
+	width:24.5%;
+	float: left;
+}
+
+.col2:hover {
+	background-color: orangered;
+	font-size: 120%;
+	color: white;
+	transition: 0.5s;
+	
+}
+
+.carol:hover {
+	height: 230px;
+	width: 230px;
+	transition: 0.5s;
+	border: solid white;
+}
+
+.col3 {
+	border: solid white;
+	width:24.5%;
+	float: left;
+}
+
+.col3:hover {
+	background-color: orangered;
+	font-size: 120%;
+	color: white;
+	transition: 0.5s;
+	
+}
+
+.david:hover {
+	height: 230px;
+	width: 230px;
+	transition: 0.5s;
+	border: solid white;
+}
+
+.col4 {
+	border: solid white;
+	width:24.5%;
+	float: left;
+}
+
+.col4:hover {
+	background-color: orangered;
+	font-size: 120%;
+	color: white;
+	transition: 0.5s;
+	
+}
+
+.donna:hover {
+	height: 230px;
+	width: 230px;
+	transition: 0.5s;
+	border: solid white;
+}
+
+/* End of Life Members Section Styles */
+
+/* Special Guests Conductors Section Styles */
+
+.conductors {
+	background-color: dodgerblue;
+	border: solid white;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	color: white;
+	height: 500px;
+}
+
+/* End of Special Guests Conductors Section Styles */
+
+.musicians {
+	background-color: dodgerblue;
+	border: solid white;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	color: white;
+	height: 500px;
+}
+
+.button1 {
+    width: 10%;
+    height: 0;
+    padding-bottom: 10%;
+    border-radius: 50%;
+    border: solid white;
+    overflow: hidden;
+    background: orangered;
+	margin-left: 45%;
+}
+.button1:hover {
+    background: rgba(255,131,0,0.83);
+}
+.button1 img {
+    display: block;
+    width: 76%;
+    padding: 12%;
+    height: auto;
 }
 
 .footer {
 	border: solid white;
 	background-color: royalblue;
 	width:100%;
+	color: white;
+	font-size: 120%;
+	padding-top: 5%;
 }
 
 /*Navigation styles*/
@@ -123,7 +269,6 @@ td, th {
   	overflow: hidden;
   	background-color: orangered;
     width:100%;
-    position: fixed;
 }
 
 .topnav a {

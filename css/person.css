@@ -7,26 +7,9 @@ body{
 }
 /*End of body styles*/
 
-
-.gallery {
-    text-align: center;
-    border: solid white;
-    margin-left:1%;
-	margin-right: 1%;
-    overflow-x: hidden;
-}
-
-img {
-	height: 100%;
-	width: 100%;
-}
-
-.spacer {
-	height:50px;
-}
 .goal {
-	background-image: url(images/water.png);
-    border: solid white;
+	background-color: royalblue;
+	border: solid white;
 }
 
 .titlepic {
@@ -36,7 +19,7 @@ img {
 
 .mission{
 	border: solid white;
-    background-color: royalblue;
+    background-color: dodgerblue;
     padding: 1% 1%;
 }
 
@@ -71,7 +54,7 @@ img {
 }
 
 .button:hover p {
-    padding-right:7px;
+    padding-right: 7px;
 }
 
 .button:hover p:after {
@@ -80,75 +63,100 @@ img {
 }
 
 .content {
-	text-align:center;
-    padding-left: 0.5%;
-    padding-right:0.5%;
+    border: solid white;
+    background-color: dodgerblue;
+    text-align: center;
 }
 
-.title {
-    color: white;
-    font-size: 175%;
-    font-weight: bold;
-    font-family: "Lucida Bright", Georgia, serif;
+.img {
+    border: solid black;
+    margin-top: 1%;
 }
-
-.paragraph {
-    width: 40%;
-    margin-left: 30%;
+.wrapper {
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+}
+.tag {
+    text-align: center;
+    background-color: orangered;
     color: white;
-    border-left: solid lightgray;
-    font-family: "Berlin Sans FB";
-    font-size: 120%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 150%;
 }
 
 .desc {
-    width:99.5%;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 120%;
+}
+
+.easynav {
     border: solid white;
-    background-color: royalblue;
+    background-color: dodgerblue;
+    padding: 5%;
 }
 
-.info {
+.prevbutton {
+    border-radius: 4px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding: 1%;
+    cursor: pointer;
+    text-decoration: none;
+	margin-right: 30%;
+}
+
+.prevbutton:hover {
+	background-color:rgba(255,131,0,0.83);
+}
+
+.nextbutton {
+    border-radius: 4px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding: 1%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nextbutton:hover {
+	background-color:rgba(255,131,0,0.83);
+}
+
+.button1 {
+    width: 10%;
+    height: 0;
+    padding-bottom: 10%;
+    border-radius: 50%;
     border: solid white;
-    width: 99.5%;
-    background-color: rgba(91,125,225,0.83);
-	overflow: hidden;
+    overflow: hidden;
+    background: orangered;
+	margin-left: 45%;
 }
-
-.info div {
-	min-height:200px;
-	padding: 10px;
+.button1:hover {
+    background: rgba(255,131,0,0.83);
 }
-
-.notices {
-  	background-color: gray;
-  	float:left; 
-  	margin-left:1%;
-	margin-top: 1%;
-  	width:49%;
-  	border-right:2px solid #000;
-}
-.concert { 
-  	background-color: darkgray;
-  	overflow:hidden;
-  	margin:1%;
- 	min-height:170px;
-}
-
-.contactinfo {
-	background-color: dodgerblue;
-	border: solid white;
-	overflow: hidden; 
-}
-
-.contactinfo div { 
-	min-height: 200px;
-	padding: 10px;
+.button1 img {
+    display: block;
+    width: 76%;
+    padding: 12%;
+    height: auto;
 }
 
 .footer {
 	border: solid white;
 	background-color: royalblue;
 	width:100%;
+	color: white;
+	font-size: 120%;
+	padding-top: 5%;
 }
 
 /*Navigation styles*/
@@ -156,7 +164,6 @@ img {
   	overflow: hidden;
   	background-color: orangered;
     width:100%;
-    position: fixed;
 }
 
 .topnav a {
@@ -192,37 +199,23 @@ img {
 	.goalimg {
 		height: 150px;
 	}
-    .paragraph {
-        width: 60%;
-        margin-left:20%;
-    }
-	
-	img {
-		width: 100%;
-		height: 100%;
-	}
-	
-	.gallery {
-		max-height: none;
-		max-width: none;
-		margin-left: 0;
-	}
-	
+
+
 	.button {
 		padding: 10px;
 		font-size: 20px;
 	}
-	
+
   	.topnav.responsive {
 		position: relative;
 	}
-	
+
   	.topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
-	
+
   	.topnav.responsive a {
         float: none;
         display: block;
@@ -233,6 +226,24 @@ img {
 		height: 100%;
 		width: 60%;
     }
+
+    .wrapper {
+        width: 30%;
+        margin-left: 35%;
+        text-align: center;
+	}
+	
+	.prevbutton {
+		font-size: 120%;
+		width: 30%;
+		padding: 2%;
+	}
+	
+	.nextbutton {
+		font-size: 120%;
+		width: 30%;
+		padding: 2%;
+	}
 
 }
 
@@ -254,11 +265,6 @@ img {
 		height: 75px;
 	}
 
-    .paragraph {
-        width: 80%;
-        margin-left:10%;
-    }
-	
 	.spacer {
 		height: 36px;
 	}
@@ -277,17 +283,17 @@ img {
         display: block;
         text-align: left;
  	}
-	
+
 	.topnav a {
 		padding: 7px 8px;
 	}
 
-   	.notices { 
+   	.notices {
     	float: none;
     	margin-right:1%;
 		margin-bottom: 0;
     	width:auto;
-    	border-bottom: solid black;   
+    	border-bottom: solid black;
 		border-right: 0;
  	}
 
@@ -295,10 +301,25 @@ img {
 		height: 100%;
 		width: 90%;
 	}
-	
+
 	.button {
 		padding:5px;
 		font-size: 15px;
+	}
+
+    .wrapper {
+        width: 50%;
+        margin-left: 25%;
+        text-align: center;
+	}
+	
+	.prevbutton {
+		font-size: 90%;
+		margin-right: 5%;
+	}
+	
+	.nextbutton {
+		font-size: 90%;
 	}
 }
 /*End of small/phone screen styles*/
@@ -315,7 +336,7 @@ img {
 	color: white;
 	font-size: 200%;
 	text-decoration: none;
-	font-weight: bold; 
+	font-weight: bold;
 }
 
 .scrollup:hover {
