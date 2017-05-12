@@ -25,7 +25,7 @@ img {
 	height:50px;
 }
 .goal {
-	background-image: url(images/water.png);
+	background-color: royalblue;
     border: solid white;
 }
 
@@ -36,7 +36,7 @@ img {
 
 .mission{
 	border: solid white;
-    background-color: royalblue;
+    background-color: dodgerblue;
     padding: 1% 1%;
 }
 
@@ -96,7 +96,7 @@ img {
     width: 40%;
     margin-left: 30%;
     color: white;
-    border-left: solid lightgray;
+    border-left: solid orangered;
     font-family: "Berlin Sans FB";
     font-size: 120%;
 }
@@ -104,13 +104,13 @@ img {
 .desc {
     width:99.5%;
     border: solid white;
-    background-color: royalblue;
+    background-color: dodgerblue;
 }
 
 .info {
     border: solid white;
     width: 99.5%;
-    background-color: rgba(91,125,225,0.83);
+    background-color: dodgerblue;
 	overflow: hidden;
 }
 
@@ -120,18 +120,44 @@ img {
 }
 
 .notices {
-  	background-color: gray;
   	float:left; 
   	margin-left:1%;
 	margin-top: 1%;
   	width:49%;
-  	border-right:2px solid #000;
+  	border-right: solid orangered;
 }
-.concert { 
-  	background-color: darkgray;
+
+.notice {
+	width: 40%;
+	margin-left: 28%;
+	background-color: orangered;
+	border-radius: 5px;
+	color: white;
+	font-family: "Berlin Sans FB";
+	font-size: 140%;
+	border: solid black;
+}
+.concert {
   	overflow:hidden;
   	margin:1%;
  	min-height:170px;
+}
+
+.concertimg {
+	width: 60%;
+	margin-left: 18%;
+}
+
+.concertinfo {
+	border: solid black;
+	border-radius: 5px;
+	background-color: orangered;
+	color: white;
+	font-family: "Berlin Sans FB";
+	font-size: 120%;
+	margin-top: -5%;
+	width: 80%;
+	margin-left: 8%;
 }
 
 .contactinfo {
@@ -228,6 +254,25 @@ img {
         display: block;
         text-align: left;
     }
+	.notices {
+    	float: none;
+    	margin-right:1%;
+		margin-bottom: 0;
+    	width:auto;
+    	border-bottom: solid orangered;
+		border-right: 0;
+ 	}
+
+	.notice {
+		width: 60%;
+		font-size: 120%;
+		margin-left: 18%;
+	}
+
+	.concertimg {
+		width: 60%;
+		margin-left: 18%;
+	}
 
     .titlepic {
 		height: 100%;
@@ -287,9 +332,20 @@ img {
     	margin-right:1%;
 		margin-bottom: 0;
     	width:auto;
-    	border-bottom: solid black;   
+    	border-bottom: solid orangered;
 		border-right: 0;
  	}
+
+	.notice {
+		width: 80%;
+		font-size: 120%;
+		margin-left: 5%;
+	}
+
+	.concertimg {
+		width: 90%;
+		margin-left: 2.5%;
+	}
 
     .titlepic {
 		height: 100%;
