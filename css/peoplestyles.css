@@ -123,17 +123,17 @@ td, th {
 
 .wrapper {
 	height: 75%;
-	width: 96.5%;
-	margin-left: 1.75%;
+	width: 100%;
 }
 
-.col1 {
-	width: 24.5%;
-	border: solid white;
+.module {
 	float: left;
+	width: 22%;
+	border: solid black;
+	margin-left: 2%;
 }
 
-.col1:hover {
+.module:hover {
 	background-color: orangered;
 	font-size: 120%;
 	color: white;
@@ -141,75 +141,6 @@ td, th {
 	
 }
 
-.alan:hover {
-	height: 230px;
-	width: 230px;
-	transition: 0.5s;
-	border: solid white;
-}
-
-.col2 {
-	border: solid white;
-	width:24.5%;
-	float: left;
-}
-
-.col2:hover {
-	background-color: orangered;
-	font-size: 120%;
-	color: white;
-	transition: 0.5s;
-	
-}
-
-.carol:hover {
-	height: 230px;
-	width: 230px;
-	transition: 0.5s;
-	border: solid white;
-}
-
-.col3 {
-	border: solid white;
-	width:24.5%;
-	float: left;
-}
-
-.col3:hover {
-	background-color: orangered;
-	font-size: 120%;
-	color: white;
-	transition: 0.5s;
-	
-}
-
-.david:hover {
-	height: 230px;
-	width: 230px;
-	transition: 0.5s;
-	border: solid white;
-}
-
-.col4 {
-	border: solid white;
-	width:24.5%;
-	float: left;
-}
-
-.col4:hover {
-	background-color: orangered;
-	font-size: 120%;
-	color: white;
-	transition: 0.5s;
-	
-}
-
-.donna:hover {
-	height: 230px;
-	width: 230px;
-	transition: 0.5s;
-	border: solid white;
-}
 
 /* End of Life Members Section Styles */
 
@@ -357,10 +288,6 @@ td, th {
 	.goalimg {
 		height: 75px;
 	}
-	
-	.spacer {
-		height: 36px;
-	}
 
   	.topnav.responsive {
         position: relative;
@@ -398,6 +325,17 @@ td, th {
 	.button {
 		padding:5px;
 		font-size: 15px;
+	}
+
+	.module {
+		float: none;
+		width: 60%;
+		margin-left: 20%;
+		margin-bottom: 5%;
+	}
+
+	.members {
+		height: auto;
 	}
 }
 /*End of small/phone screen styles*/
