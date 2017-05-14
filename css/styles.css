@@ -112,15 +112,13 @@ img {
 }
 
 .notices {
-  	float:left; 
-  	margin-left:1%;
-	margin-top: 1%;
-  	width:49%;
+  	float:left;
+	margin-top: 5%;
 }
 
 .notice {
-	width: 40%;
-	margin-left: 28%;
+	width: 60%;
+	margin-left: 20%;
 	background-color: orangered;
 	border-radius: 5px;
 	color: white;
@@ -132,11 +130,12 @@ img {
   	overflow:hidden;
   	margin:1%;
  	min-height:170px;
+	border-left: solid orangered;
 }
 
 .concertimg {
-	width: 60%;
-	margin-left: 18%;
+	width: 40%;
+	margin-left: 30%;
 }
 
 .concertinfo {
@@ -147,7 +146,7 @@ img {
 	font-family: "Berlin Sans FB";
 	font-size: 120%;
 	width: 80%;
-	margin-left: 8%;
+	margin-left: 10%;
 }
 
 .contactinfo {
@@ -208,6 +207,7 @@ img {
 	color: white;
 	padding: 0.5%;
 	border-right: 2px solid black;
+	text-decoration: none;
 }
 
 .botnav a:first-child {
@@ -281,12 +281,12 @@ img {
 	.notice {
 		width: 60%;
 		font-size: 120%;
-		margin-left: 18%;
+		margin-left: 20%;
 	}
 
 	.concertimg {
 		width: 60%;
-		margin-left: 18%;
+		margin-left: 20%;
 	}
 
     .titlepic {
@@ -319,10 +319,6 @@ img {
         margin-left:10%;
     }
 
-	.spacer {
-		height: 36px;
-	}
-
   	.topnav.responsive {
         position: relative;
     }
@@ -354,12 +350,12 @@ img {
 	.notice {
 		width: 80%;
 		font-size: 120%;
-		margin-left: 5%;
+		margin-left: 10%;
 	}
 
 	.concertimg {
 		width: 90%;
-		margin-left: 2.5%;
+		margin-left: 5%;
 	}
 
     .titlepic {
@@ -370,6 +366,10 @@ img {
 	.button {
 		padding:5px;
 		font-size: 15px;
+	}
+
+	.concert {
+		border: none;
 	}
 }
 /*End of small/phone screen styles*/

@@ -68,6 +68,20 @@ img {
   right: 0;
 }
 
+.showcase1 {
+    width: 100%;
+    border: solid white;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.showcase2 {
+    width: 100%;
+    border: solid white;
+    background-color: dodgerblue;
+    color: white;
+}
+
 .footer {
 	border: solid white;
 	background-color: royalblue;
@@ -102,6 +116,30 @@ img {
 .topnav a:hover {
     background-color: rgba(255,131,0,0.83);
     color: black;
+}
+
+.botnav {
+	overflow: hidden;
+	color: white;
+	width: 100%;
+	margin-bottom: 0.5%;
+}
+
+.botnav a {
+	color: white;
+	padding: 0.5%;
+	border-right: 2px solid black;
+	text-decoration: none;
+}
+
+.botnav a:first-child {
+	border-left: 2px solid black;
+}
+
+.botnav a:hover {
+	color: orangered;
+	text-decoration: none;
+
 }
 /*End of navigation styles*/
 
