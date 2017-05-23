@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.contact_contents {
+	height: 800px;
+	background-image: url(css/images/water.png);
+}
+.contact_information {
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bolder;
+	font-size: large;
+}
+
+.contact_input {
+	width: 200px;
+	margin-left: 200px;
+	margin-top: 0px;
+	padding-top: 50px;
+	line-height: 30px;
+}
+.contact_left {
+	float: left;
+}
+.message {
+	width: 400px;
+	height: 200px;
+}
+.contact_orchestral {
+	margin-top: 50px;
+	padding-right: 0px;
+	width: 705px;
+	height: 388px;
+	border: thick solid #2025FD;
+	margin-right: 120px;
+}
+.contact_right {
+	float: right;
+	clear: right;
+}
+.sumbit_button {
+	width: 140px;
+	height: 45px;
+	border-radius: 10px;
+	background-color: #0076EB;
+	margin-left: 135px;
+	margin-top: 35px;
+	font-variant: normal;
+	font-weight: bolder;
+	font-size: large;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-style: normal;
+	border-color: #FFFFFF;
+	border-style: double;
+}
+
+.phone {
+	width: 200px;
+	height: 20px;
+}
+.email {
+	width: 200px;
+	height: 20px;
+}
+.subject {
+	width: 200px;
+	height: 20px;
+}
+.label {
+	float: left;
+	font-weight: bold;
+	font-size: large;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	line-height: 0px;
+}
