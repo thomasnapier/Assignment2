@@ -90,9 +90,9 @@ body{
 }
 
 table { 
-  	width: 80%; 
+  	width: 60%;
   	border-collapse: collapse; 
-	margin-left: 10%;
+	margin-left: 20%;
 }
 
 td, th { 
@@ -195,7 +195,6 @@ td, th {
 .topnav {
   	overflow: hidden;
   	background-color: orangered;
-    width:100%;
 }
 
 .topnav a {
@@ -246,11 +245,17 @@ td, th {
 
 /*Medium/Tablet screen styles*/
 @media screen and (max-width: 1160px) {
-  .topnav a:not(:first-child) {
-	  display: none;
+
+	.topnav {
+		margin-left: 0;
+		width: 100%;
+	}
+
+  	.topnav a:not(:first-child) {
+	  	display: none;
   }
 
-  .topnav a.icon {
+  	.topnav a.icon {
         float: right;
         display: block;
         margin-right: 0;
@@ -299,6 +304,12 @@ td, th {
 
 /*Small/Phone screen styles*/
 @media screen and (max-width: 660px) {
+
+	.topnav {
+		margin-left: 0;
+		width: 100%;
+	}
+
   	.topnav a:not(:first-child) {
         display: none;
     }

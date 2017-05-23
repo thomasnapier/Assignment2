@@ -33,29 +33,52 @@ img {
 
 /*Navigation styles*/
 .topnav {
-  	overflow: hidden;
-  	background-color: orangered;
-    width:100%;
-    position: fixed;
+    overflow: hidden;
+    background-color: orangered;
 }
 
 .topnav a {
-  	float: left;
-  	display: block;
-  	color: #f2f2f2;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
-  	font-size: 17px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
 }
 
 .topnav .icon {
- 	display: none;
+  display: none;
 }
 
 .topnav a:hover {
     background-color: rgba(255,131,0,0.83);
     color: black;
+}
+
+.botnav {
+  overflow: hidden;
+  color: white;
+  width: 100%;
+  margin-bottom: 0.5%;
+}
+
+.botnav a {
+  color: white;
+  padding: 0.5%;
+  border-right: 2px solid black;
+  text-decoration: none;
+}
+
+.botnav a:first-child {
+  border-left: 2px solid black;
+}
+
+.botnav a:hover {
+  color: orangered;
+  text-decoration: none;
+
 }
 /*End of navigation styles*/
 
