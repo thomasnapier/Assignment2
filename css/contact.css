@@ -1,7 +1,26 @@
 @charset "UTF-8";
 .contact_contents {
-	height: 800px;
-	background-image: url(css/images/water.png);
+	height: 900px;
+	background-image: url(images/water.png);
+}
+
+.submit_button {
+	border-radius: 10px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+	margin-left: 115px;
+	margin-top: 30px;
+}
+.submit_button:hover {
+	background-color: rgba(255,132,3,1.00);
+	text-decoration: underline;
 }
 .contact_information {
 	text-align: center;
@@ -35,39 +54,4 @@
 .contact_right {
 	float: right;
 	clear: right;
-}
-.sumbit_button {
-	width: 140px;
-	height: 45px;
-	border-radius: 10px;
-	background-color: #0076EB;
-	margin-left: 135px;
-	margin-top: 35px;
-	font-variant: normal;
-	font-weight: bolder;
-	font-size: large;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-	font-style: normal;
-	border-color: #FFFFFF;
-	border-style: double;
-}
-
-.phone {
-	width: 200px;
-	height: 20px;
-}
-.email {
-	width: 200px;
-	height: 20px;
-}
-.subject {
-	width: 200px;
-	height: 20px;
-}
-.label {
-	float: left;
-	font-weight: bold;
-	font-size: large;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-	line-height: 0px;
 }
