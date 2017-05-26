@@ -69,127 +69,17 @@ img {
 }
 
 .showcase1 {
-    border: solid white;
-    background-color: dodgerblue;
-    color: white;
-    margin: auto;
-    min-height: 800px;
-}
-
-.title {
-    color: white;
-    font-size: 175%;
-    font-weight: bold;
-    font-family: "Lucida Bright", Georgia, serif;
-}
-
-.queen {
-    max-width: 40%;
-    margin-right: 5%;
-    float: right;
-}
-
-
-.paragraph {
-    float: left;
-    width: 40%;
-    margin-left: 5%;
-    color: white;
-    border-right: solid orangered;
-    font-family: "Berlin Sans FB";
-    font-size: 140%;
-    padding-right: 1%;
-}
-
-.star {
-    color: orange;
-}
-
-.join {
-    font-size: 120%;
-}
-
-.details {
-    width: 35%;
-    margin-left: 5%;
-    color: white;
-    border-top: solid orangered;
-    font-family: "Berlin Sans FB";
-    font-size: 140%;
-    padding-right: 1%;
-}
-
-.buttonarea {
-    background-color: dodgerblue;
-    border: solid white;
-}
-
-.button1 {
-    border-radius: 4px;
-    background-color: orangered;
-    border: none;
-    color: white;
-    text-align: center;
-    font-size: 28px;
-    padding: 15px;
-    width: 20%;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-.past {
-    background-color: dodgerblue;
-    border: solid white;
-    display: none;
-}
-
-.heading {
-    font-size: 170%;
-    font-family: "Berlin Sans FB";
-    color: white;
     width: 100%;
-    background-color: orangered;
-    text-align: left;
-    padding: 0.25%;
-
+    border: solid white;
+    background-color: dodgerblue;
+    color: white;
 }
 
-.poster {
-    width: 50%;
-}
-
-.module {
-    float: left;
-    width: 20%;
-    margin-left: 2%;
-    transition: 0.3s;
-}
-
-.module:hover {
-    width: 35%;
-    transition: 0.3s;
-}
-
-.first {
-    border: solid black;
-    width: 20%;
-    margin-right: 5%;
-}
-
-.years {
-    min-height: 550px;
-    max-height: 800px;
-}
-
-.display {
-    width: 80%;
-}
-
-.bigwrapper {
-    width: 90%;
-    margin-left: 5%;
+.showcase2 {
+    width: 100%;
+    border: solid white;
+    background-color: dodgerblue;
+    color: white;
 }
 
 .footer {
@@ -288,40 +178,8 @@ img {
 		width: 60%;
     }
 
-    .queen {
-        max-width: 85%;
-        float: none;
-        margin-left: 7.5%;
-    }
-
-    .paragraph {
-        float: none;
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .details {
-        margin-top: 0;
-        width: 70%;
-        margin-left: 15%;
-    }
-
-    .button1 {
-        width: 40%;
-    }
-
-    .module{
-        float:none;
-        width: 60%;
-        margin-left: 20%;
-    }
-
-    .module:hover {
-        width: 80%;
-        margin-left: 10%;
-    }
-
 }
+
 /*End of Medium/Tablet screen styles*/
 
 
@@ -364,32 +222,6 @@ img {
 		padding:5px;
 		font-size: 15px;
 	}
-
-    .queen {
-        max-width: 90%;
-        float: none;
-        margin-left: 5%;
-    }
-
-    .paragraph {
-        float: none;
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .button1 {
-        width: 50%;
-        font-size: 100%;
-    }
-
-    .module {
-        width: 90%;
-        margin-left: 5%;
-    }
-
-    .module:hover {
-        width:90%;
-    }
 }
 /*End of small/phone screen styles*/
 
@@ -412,3 +244,55 @@ img {
 	color: orangered;
 }
 /*End of scroll to top button styles*/
+
+.title {
+    font-size: 170%;
+    color: white;
+    font-family: "Berlin Sans FB";
+    text-align: left;
+    margin-left: 25%;
+
+}
+
+  #accordion {
+     background-color: dodgerblue;
+     border: solid white;
+  }
+
+  #accordion2 {
+     background-color: dodgerblue;
+     border: solid white;
+  }
+
+  .accordion-toggle {
+     border-top: 2px solid black;
+      border-bottom: 2px solid black;
+     cursor: pointer;
+     color: white;
+     font-weight: bold;
+     font-size: 22px;
+      width: 50%;
+      padding: 0.5%;
+      margin-left: 25%;
+      text-align: left;
+  }
+
+  .accordion-toggle:hover {
+      background-color: orangered;
+  }
+  
+  .accordion-content {
+     display: none;
+     color: white;
+     font-size: 18px;
+      text-align: left;
+      font-family: "Berlin Sans FB";
+      margin-left: 25%;
+      width: 50%;
+  }
+  
+  .accordion-content.default {
+     display: none;
+     color: white;
+     font-size: 18px;
+  }

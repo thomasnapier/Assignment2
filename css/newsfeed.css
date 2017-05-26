@@ -7,7 +7,6 @@ body{
 }
 /*End of body styles*/
 
-
 img {
 	height: 100%;
 	width: 100%;
@@ -68,18 +67,64 @@ img {
   right: 0;
 }
 
-.showcase1 {
-    width: 100%;
-    border: solid white;
-    background-color: dodgerblue;
+.title {
     color: white;
+    font-size: 175%;
+    font-weight: bold;
+    font-family: "Lucida Bright", Georgia, serif;
+
 }
 
-.showcase2 {
-    width: 100%;
-    border: solid white;
-    background-color: dodgerblue;
-    color: white;
+.title:hover {
+	color: orangered;
+	transition: 0.3s;
+}
+
+.news {
+	border: solid white;
+	background-color: dodgerblue;
+	color: white;
+	font-family: "Berlin Sans FB";
+}
+
+.heading {
+	font-size: 110%;
+}
+
+.paragraph {
+	font-size: 120%;
+}
+
+.anniversary {
+	width: 80%;
+	margin-left: 10%;
+	border-bottom: 2px solid black;
+}
+
+.report {
+	width: 80%;
+	margin-left: 10%;
+
+}
+
+.more {
+	text-decoration: none;
+	color: orange;
+}
+
+.more:hover {
+	cursor: pointer;
+}
+
+.showmore {
+	font-family: "Berlin Sans FB";
+	font-size: 120%;
+}
+
+
+.preview {
+	width: 40%;
+	margin-top: 1%;
 }
 
 .footer {
@@ -93,23 +138,23 @@ img {
 
 /*Navigation styles*/
 .topnav {
-    overflow: hidden;
-    background-color: orangered;
+  	overflow: hidden;
+  	background-color: orangered;
 }
 
 .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
     position: relative;
 }
 
 .topnav .icon {
-  display: none;
+ 	display: none;
 }
 
 .topnav a:hover {
@@ -118,46 +163,51 @@ img {
 }
 
 .botnav {
-  overflow: hidden;
-  color: white;
-  width: 100%;
-  margin-bottom: 0.5%;
+	overflow: hidden;
+	color: white;
+	width: 100%;
+	margin-bottom: 0.5%;
 }
 
 .botnav a {
-  color: white;
-  padding: 0.5%;
-  border-right: 2px solid black;
-  text-decoration: none;
+	color: white;
+	padding: 0.5%;
+	border-right: 2px solid black;
+	text-decoration: none;
 }
 
 .botnav a:first-child {
-  border-left: 2px solid black;
+	border-left: 2px solid black;
 }
 
 .botnav a:hover {
-  color: orangered;
-  text-decoration: none;
+	color: orangered;
+	text-decoration: none;
 
-}
-
-#about-text {
-  font-family: "Berlin Sans FB"; 
-  color: white;
-  font-size: 20px;
 }
 /*End of navigation styles*/
 
-
 /*Medium/Tablet screen styles*/
 @media screen and (max-width: 1160px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
+
+	.topnav {
+		margin-left: 0;
+		width: 100%;
+	}
+
+  	.topnav a:not(:first-child) {
+	  display: none;
+  }
+
+  	.topnav a.icon {
         float: right;
         display: block;
         margin-right: 0;
   }
-
+	img {
+		width: 100%;
+		height: 100%;
+	}
 	.button {
 		padding: 10px;
 		font-size: 20px;
@@ -178,7 +228,6 @@ img {
         display: block;
         text-align: left;
     }
-
     .titlepic {
 		height: 100%;
 		width: 60%;
@@ -186,11 +235,16 @@ img {
 
 }
 
-/*End of Medium/Tablet screen styles*/
-
+/*End of medium/tablet screen styles*/
 
 /*Small/Phone screen styles*/
 @media screen and (max-width: 500px) {
+
+	.topnav {
+		margin-left: 0;
+		width: 100%;
+	}
+
   	.topnav a:not(:first-child) {
         display: none;
     }
@@ -200,7 +254,10 @@ img {
         display: block;
   	}
 
-  	.topnav.responsive {
+	.goalimg {
+		height: 75px;
+	}
+ 	.topnav.responsive {
         position: relative;
     }
 
@@ -218,7 +275,6 @@ img {
 	.topnav a {
 		padding: 7px 8px;
 	}
-
     .titlepic {
 		height: 100%;
 		width: 90%;
@@ -250,55 +306,3 @@ img {
 	color: orangered;
 }
 /*End of scroll to top button styles*/
-
-.title {
-    font-size: 170%;
-    color: white;
-    font-family: "Berlin Sans FB";
-    text-align: left;
-    margin-left: 25%;
-
-}
-
-  #accordion {
-     background-color: dodgerblue;
-     border: solid white;
-  }
-
-  #accordion2 {
-     background-color: dodgerblue;
-     border: solid white;
-  }
-
-  .accordion-toggle {
-     border-top: 2px solid black;
-      border-bottom: 2px solid black;
-     cursor: pointer;
-     color: white;
-     font-weight: bold;
-     font-size: 22px;
-      width: 50%;
-      padding: 0.5%;
-      margin-left: 25%;
-      text-align: left;
-  }
-
-  .accordion-toggle:hover {
-      background-color: orangered;
-  }
-  
-  .accordion-content {
-     display: none;
-     color: white;
-     font-size: 18px;
-      text-align: left;
-      font-family: "Berlin Sans FB";
-      margin-left: 25%;
-      width: 50%;
-  }
-  
-  .accordion-content.default {
-     display: none;
-     color: white;
-     font-size: 18px;
-  }

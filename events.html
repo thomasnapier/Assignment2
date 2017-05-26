@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Barrier Reef Orchestra</title>
     <link rel="stylesheet" href="css/eventstyles.css" type="text/css">
-    <link rel="script" href="javascript/scripts.js">
     <link rel="shortcut icon" href="css/images/Logo.png">
   </head>
 <body>
 <div class="nav">
-	<div class="topnav" id="myTopNav">
+    <div class="topnav" id="myTopNav">
         <a href="index.html">HOME</a>
         <a href="about.html">ABOUT US</a>
         <a href="events.html">EVENTS</a>
         <a href="repertoire.html">REPERTOIRE</a>
         <a href="people.html">PEOPLE</a>
+        <a href="newsfeed.html">NEWSFEED</a>
         <a href="support.html">SUPPORT US</a>
         <a href="contact.html">CONTACT US</a>
-.       <a href="#">SIGN UP</a>
+.       <a href="http://nqorchestra.com.au/wp-content/uploads/2017/01/Membership-Form.pdf">SIGN UP</a>
         <a href="javascript:void(0);" class = "icon hvr-overline-from-left" onclick ="ResponsiveNav()">&#9776;</a>
-	</div>
+    </div>
 </div>
 <script>
     function ResponsiveNav() {
@@ -36,7 +37,9 @@
     <a href="index.html"><img class="titlepic" src="css/images/Title.png"></a>
 </div>
 <div class="mission">
+    <a href="support.html">
     <button class="button"><p class="click">Click here to join our Orchestra </p></button>
+    </a>
 </div>
 <div class="showcase1">
     <p class="title">Upcoming Event - Queens Gardens Concert</p>
@@ -54,10 +57,70 @@
         A <em>FREE</em> Event<br><br>
         Bring your picnic blanket and enjoy a truly delightful afternoon in the park.</p>
     </div>
-    <img src="" class="ticket">
+</div>
+<script>
+jQuery(document).ready(function(){
+        jQuery('#hideshow').on('click', function(event) {
+             jQuery('.past').toggle('show');
+        });
+    });
+</script>
+<div class="buttonarea">
+    <input type="button" id="hideshow" value="Past Events" class="button1">
 </div>
 <div class="past">
-
+<div class="bigwrapper">
+    <div class="years">
+    <p class="heading">2017</p>
+    <div class="wrapper">
+        <div class="module">
+            <img src="css/images/2017-Concerts-Program.jpg" class="poster">
+        </div>
+        <div class="module">
+            <img src="css/images/2017 Event.jpg" class="poster">
+        </div>
+    </div>
+    </div>
+    <div class="years">
+    <p class="heading">2016</p>
+    <div class="wrapper">
+        <div class="module">
+            <img src="css/images/2016Twilight-Classics-A6-Flyer-.jpg" class="poster">
+        </div>
+        <div class="module">
+            <img src="css/images/2016BRO-goes-to-the-Opera.jpg" class="poster">
+        </div>
+        <div class="module">
+            <img src="css/images/2016BRO.jpg" class="poster">
+        </div>
+    </div>
+    </div>
+    <div class="years">
+        <p class="heading">2015</p>
+        <div class="wrapper">
+        <div class="module">
+            <img src="css/images/2015-World-Music-Concert-we.jpg" class="poster">
+        </div>
+        <div class="module">
+            <img src="css/images/2015-Sounds-of-Romance-Poster.jpg" class="poster">
+        </div>
+        <div class="module">
+            <img src="css/images/2015.jpg" class="poster">
+        </div>
+    </div>
+    </div>
+    <div class="years">
+        <p class="heading">2014</p>
+        <div class="wrapper">
+        <div class="module">
+            <img src="css/images/2014TSV-Masterworks-A7.jpg" class="poster">
+        </div>
+        <div class="module">
+            <img src="css/images/2014Last-night-at-the-Proms-Poster.jpg" class="poster">
+        </div>
+    </div>
+    </div>
+    </div>
 </div>
 <div class="footer">
     <p>© Copyright North Queensland Orchestra Inc. 2017</p>
@@ -67,6 +130,7 @@
         <a href="events.html">Events</a>
         <a href="repertoire.html">Repertoire</a>
         <a href="people.html">People</a>
+        <a href="newsfeed.html">Newsfeed</a>
         <a href="support.html">Support Us</a>
         <a href="contact.html">Contact Us</a>
     </div>
